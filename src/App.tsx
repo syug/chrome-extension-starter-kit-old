@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 import './App.css';
 import logo from './logo.svg';
+
+const Wrapper = styled.div`
+  text-align: center;
+`;
 
 class App extends Component {
   public render() {
     return (
-      <div className="App">
+      <Wrapper>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -20,7 +25,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
-      </div>
+      </Wrapper>
     );
   }
 }

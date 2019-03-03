@@ -1,1 +1,1 @@
-# chrome-extension-starter-kit
+# [WIP] chrome-extension-starter-kit
